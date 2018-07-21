@@ -23,9 +23,10 @@ const people = {
 	"thinking-face": "&#x1f914;",
 	"raised-eyebrow": "&#x1f928;",
 	"neutral-face": "&#x1f610;",
+	"expressionless": "&#x1f611;",
 }
 
-// TODO: from Expressionless Face to end
+// TODO: from Face Without Mouth to end
 // source: https://emojipedia.org/people/
 
 export default people
