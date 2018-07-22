@@ -24,9 +24,18 @@ const people = {
 	"raised-eyebrow": "&#x1f928;",
 	"neutral-face": "&#x1f610;",
 	"expressionless": "&#x1f611;",
+	"no-mouth": "&#x1f636;",
+	"eye-roll": "&#x1f644;",
+	"smirk": "&#x1f60f;",
+	"persevere": "&#x1f623;",
+	"disappointed-relieved": "&#x1f625;",
+	"open-mouth": "&#x1f62e;",
+	"zipper-mouth-face": "&#x1f910;",
+	"hushed": "&#x1f62f;",
+	"sleepy": "&#x1f62a;",
 }
 
-// TODO: from Face Without Mouth to end
+// TODO: from Tired Face to end
 // source: https://emojipedia.org/people/
 
 export default people

@@ -69,7 +69,7 @@ require = (function (modules, cache, entry) {
 
   // Override the current require with this new one
   return newRequire;
-})({9:[function(require,module,exports) {
+})({6:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -99,12 +99,23 @@ const people = {
   "star-eyes": "&#x1f929;",
   "thinking-face": "&#x1f914;",
   "raised-eyebrow": "&#x1f928;",
-  "neutral-face": "&#x1f610;"
+  "neutral-face": "&#x1f610;",
+  "expressionless": "&#x1f611;",
+  "no-mouth": "&#x1f636;",
+  "eye-roll": "&#x1f644;",
+  "smirk": "&#x1f60f;",
+  "persevere": "&#x1f623;",
+  "disappointed-relieved": "&#x1f625;",
+  "open-mouth": "&#x1f62e;",
+  "zipper-mouth-face": "&#x1f910;",
+  "hushed": "&#x1f62f;",
+  "sleepy": "&#x1f62a;"
 
-  // TODO: from Expressionless Face to end
+  // TODO: from Tired Face to end
+  // source: https://emojipedia.org/people/
 
 };exports.default = people;
-},{}],10:[function(require,module,exports) {
+},{}],7:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -113,7 +124,7 @@ Object.defineProperty(exports, "__esModule", {
 const nature = {};
 
 exports.default = nature;
-},{}],8:[function(require,module,exports) {
+},{}],5:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -135,7 +146,7 @@ let obj = {};
 Object.assign(obj, _people2.default, _nature2.default);
 
 exports.default = obj;
-},{"./people":9,"./nature":10}],6:[function(require,module,exports) {
+},{"./people":6,"./nature":7}],4:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -154,7 +165,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 const emojis = _types2.default;
 
 exports.default = emojis;
-},{"./types":8}],5:[function(require,module,exports) {
+},{"./types":5}],3:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -225,7 +236,7 @@ class Emoji {
 }
 
 exports.default = Emoji;
-},{"./emoji_list":6}],4:[function(require,module,exports) {
+},{"./emoji_list":4}],2:[function(require,module,exports) {
 "use strict";
 
 var _emoji = require("./emoji");
@@ -255,7 +266,7 @@ Object.keys(_emoji_list2.default).map(m => {
 emoji.init();
 
 emoji.runShortCode();
-},{"./emoji":5,"./emoji_list":6}],0:[function(require,module,exports) {
+},{"./emoji":3,"./emoji_list":4}],0:[function(require,module,exports) {
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
 function Module() {
@@ -273,7 +284,7 @@ function Module() {
 module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
-  var ws = new WebSocket('ws://' + window.location.hostname + ':38577/');
+  var ws = new WebSocket('ws://' + window.location.hostname + ':37263/');
   ws.onmessage = function(event) {
     var data = JSON.parse(event.data);
 
@@ -374,4 +385,4 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id)
   });
 }
-},{}]},{},[0,4])
+},{}]},{},[0,2])
