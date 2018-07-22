@@ -41,9 +41,23 @@ const people = {
 	"sout-tongue-closed-eyes": "&#x1f61d;",
 	"drooling-face": "&#x1f924;",
 	"unamused": "&#x1f612;",
+	"sweat": "&#x1f613;",
+	"pensive": "&#x1f614;",
+	"confused": "&#x1f615;",
+	"upside-down-face": "&#x1f643;",
+	"money-mouth-face": "&#x1f911;",
+	"astonished": "&#x1f632;",
+	"frowning-face": "&#x2639;",
+	"slightly-frowning-face": "&#x1f641;",
+	"confounded": "&#x1f616;",
+	"disappointed": "&#x1f61e;",
+	"worried": "&#x1f61f;",
+	"triumph": "&#x1f624;",
+	"cry": "&#x1f622;",
+	"sob": "&#x1f62d;",
 }
 
-// TODO: from Downcast Face With Sweat to end
+// TODO: from Frowning Face With Open Mouth to end
 // source: https://emojipedia.org/people/
 
 export default people

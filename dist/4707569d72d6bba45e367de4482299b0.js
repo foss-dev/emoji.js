@@ -117,7 +117,21 @@ const people = {
   "sout-tongue-winking-eye": "&#x1f61c;",
   "sout-tongue-closed-eyes": "&#x1f61d;",
   "drooling-face": "&#x1f924;",
-  "unamused": "&#x1f612;"
+  "unamused": "&#x1f612;",
+  "sweat": "&#x1f613;",
+  "pensive": "&#x1f614;",
+  "confused": "&#x1f615;",
+  "upside-down-face": "&#x1f643;",
+  "money-mouth-face": "&#x1f911;",
+  "astonished": "&#x1f632;",
+  "frowning-face": "&#x2639;",
+  "slightly-frowning-face": "&#x1f641;",
+  "confounded": "&#x1f616;",
+  "disappointed": "&#x1f61e;",
+  "worried": "&#x1f61f;",
+  "triumph": "&#x1f624;",
+  "cry": "&#x1f622;",
+  "sob": "&#x1f62d;"
 
   // TODO: from Downcast Face With Sweat to end
   // source: https://emojipedia.org/people/
@@ -292,7 +306,7 @@ function Module() {
 module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
-  var ws = new WebSocket('ws://' + window.location.hostname + ':34677/');
+  var ws = new WebSocket('ws://' + window.location.hostname + ':36341/');
   ws.onmessage = function(event) {
     var data = JSON.parse(event.data);
 
