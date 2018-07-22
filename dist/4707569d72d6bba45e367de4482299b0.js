@@ -109,9 +109,17 @@ const people = {
   "open-mouth": "&#x1f62e;",
   "zipper-mouth-face": "&#x1f910;",
   "hushed": "&#x1f62f;",
-  "sleepy": "&#x1f62a;"
+  "sleepy": "&#x1f62a;",
+  "tired-face": "&#x1f62b;",
+  "sleeping": "&#x1f634;",
+  "relieved": "&#x1f60c;",
+  "stuck-out-tongue": "&#x1f61b;",
+  "sout-tongue-winking-eye": "&#x1f61c;",
+  "sout-tongue-closed-eyes": "&#x1f61d;",
+  "drooling-face": "&#x1f924;",
+  "unamused": "&#x1f612;"
 
-  // TODO: from Tired Face to end
+  // TODO: from Downcast Face With Sweat to end
   // source: https://emojipedia.org/people/
 
 };exports.default = people;
@@ -284,7 +292,7 @@ function Module() {
 module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
-  var ws = new WebSocket('ws://' + window.location.hostname + ':37263/');
+  var ws = new WebSocket('ws://' + window.location.hostname + ':34677/');
   ws.onmessage = function(event) {
     var data = JSON.parse(event.data);
 
