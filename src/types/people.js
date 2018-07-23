@@ -55,9 +55,23 @@ const people = {
 	"triumph": "&#x1f624;",
 	"cry": "&#x1f622;",
 	"sob": "&#x1f62d;",
+	"frowning": "&#x1f626;",
+	"anguished": "&#x1f627;",
+	"fearful": "&#x1f628;",
+	"weary": "&#x1f629;",
+	"exploding-head": "&#x1f92f;",
+	"grimacing": "&#x1f62c;",
+	"cold-sweat": "&#x1f630;",
+	"scream": "&#x1f631;",
+	"flushed": "&#x1f633;",
+	"crazy-eyes": "&#x1f92a;",
+	"dizzy-face": "&#x1f635;",
+	"rage": "&#x1f621;",
+	"angry": "&#x1f620;",
+	"cursing": "&#x1f92c;",
 }
 
-// TODO: from Frowning Face With Open Mouth to end
+// TODO: from Face With Medical Mask to end
 // source: https://emojipedia.org/people/
 
 export default people
