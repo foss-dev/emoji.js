@@ -145,9 +145,23 @@ const people = {
   "dizzy-face": "&#x1f635;",
   "rage": "&#x1f621;",
   "angry": "&#x1f620;",
-  "cursing": "&#x1f92c;"
+  "cursing": "&#x1f92c;",
+  "mask": "&#x1f637;",
+  "sick": "&#x1f912;",
+  "injured": "&#x1f915;",
+  "green-face": "&#x1f922;",
+  "spew": "&#x1f92e;",
+  "gesundheit": "&#x1f927;",
+  "innocent": "&#x1f607;",
+  "cowboy": "&#x1f920;",
+  "clown-face": "&#x1f921;",
+  "liar": "&#x1f925;",
+  "hush": "&#x1f92b;",
+  "blushing-face": "&#x1f92d;",
+  "face-with-monocle": "&#x1f9d0;",
+  "nerdy": "&#x1f913;"
 
-  // TODO: from Face With Medical Mask to end
+  // TODO: from Smiling Face With Horns to end
   // source: https://emojipedia.org/people/
 
 };exports.default = people;
@@ -320,7 +334,7 @@ function Module() {
 module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
-  var ws = new WebSocket('ws://' + window.location.hostname + ':43251/');
+  var ws = new WebSocket('ws://' + window.location.hostname + ':37523/');
   ws.onmessage = function(event) {
     var data = JSON.parse(event.data);
 
