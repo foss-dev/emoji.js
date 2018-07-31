@@ -70,6 +70,6 @@ Please contribute to diversity.
 
 ## Help Categories
 
-Currently, I need to complete [people](https://emojipedia.org/people/).
+Currently, I need to complete [?] (https://emojipedia.org/).
 
 In order to help to this repository, you need to check the files under the `/src/types` folder. Please, respect the format.
