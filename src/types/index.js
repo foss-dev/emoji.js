@@ -1,10 +1,11 @@
-import people from "./people"
-import nature from "./nature"
+import flags from "./categories/flags"
+import people from "./categories/people"
+import nature from "./categories/nature"
 
-let obj = { }
+let obj = {}
 
 Object.assign(obj, 
-    people, nature
+    people, nature, flags
 )
 
 export default obj
